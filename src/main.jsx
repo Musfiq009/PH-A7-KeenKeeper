@@ -2,11 +2,19 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
-import Navbar from './components/Ui/Navbar'
+import MainLayout from './layouts/MainLayout'
+import Dashboard from './pages/Dashboard/Dashboard'
 
 const router = createBrowserRouter([{
   path:"/",
-  element:<Navbar></Navbar>
+  Component:MainLayout,
+  children:[
+    {
+      index:true,
+      Component:Dashboard,
+      loader: ()=>fetch("/Friends.json")
+    }
+  ]
 }])
 
 createRoot(document.getElementById('root')).render(

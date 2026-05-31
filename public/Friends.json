@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sarah.mitchell@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "College roommate turned Seattle-based UX designer who I bonded with over late-night study runs.",
+    "goal": 14,
+    "next_due_date": "2026-05-17"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thompson",
+    "picture": "https://randomuser.me/api/portraits/men/34.jpg",
+    "email": "marcus.t.92@outlook.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["work", "gym buddy"],
+    "bio": "Work friend turned gym buddy who I've known since my first job out of college.",
+    "goal": 10,
+    "next_due_date": "2026-06-04"
+  },
+  {
+    "id": 3,
+    "name": "Priya Nair",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "priya.nair.writes@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["high school", "travel buddy"],
+    "bio": "High school best friend since 8th grade who's now a freelance travel writer — we backpacked Vietnam together in 2022.",
+    "goal": 12,
+    "next_due_date": "2026-06-01"
+  },
+  {
+    "id": 4,
+    "name": "James Okafor",
+    "picture": "https://randomuser.me/api/portraits/men/58.jpg",
+    "email": "james.okafor@protonmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["family friend", "mentor"],
+    "bio": "Family friend and mentor figure who's 10 years older and runs his own accounting firm in Chicago.",
+    "goal": 21,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 5,
+    "name": "Chloe Nguyen",
+    "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+    "email": "chloenguyenart@yahoo.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["college", "neighbor", "close friend"],
+    "bio": "College next-door neighbor turned Portland ceramics artist who still sends me handmade mugs every Christmas.",
+    "goal": 7,
+    "next_due_date": "2026-06-04"
+  },
+  {
+    "id": 6,
+    "name": "Daniel Reyes",
+    "picture": "https://randomuser.me/api/portraits/men/23.jpg",
+    "email": "daniel.reyes.dev@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["online friend", "gaming", "tech"],
+    "bio": "Online friend met through an indie game dev forum in 2018 — we collaborated on a game jam and have stayed close ever since.",
+    "goal": 30,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 7,
+    "name": "Amara Diallo",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "amara.diallo.md@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["college", "study group"],
+    "bio": "Pre-med study partner from NYU who's now a resident physician in Atlanta keeping me grounded.",
+    "goal": 10,
+    "next_due_date": "2026-06-01"
+  },
+  {
+    "id": 8,
+    "name": "Liam Hartley",
+    "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+    "email": "liamhartley.photo@icloud.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["childhood friend", "close friend"],
+    "bio": "Childhood best friend since age seven who now photographs landscapes across Europe and never misses our monthly call.",
+    "goal": 14,
+    "next_due_date": "2026-06-10"
+  }
+]
