@@ -1,5 +1,6 @@
 import { FiPlus } from "react-icons/fi";
 import { useLoaderData } from "react-router";
+import FriendCard from "../../components/FriendCard";
 
 const Dashboard = () => {
     const friendsData=useLoaderData();
@@ -53,10 +54,12 @@ const Dashboard = () => {
           </div>
         </div>
          <div className="divider my-10 text-gray-500"></div>
-         <div>
+         <div className="space-y-4">
             <h3 className="font-semibold text-2xl text-gray-900">Your Friends</h3>
-            <div>
-
+            <div className="grid grid-cols-4 gap-6">
+                {
+                    friendsData.map(friend => <FriendCard key={friend.id} friend={friend} ></FriendCard>)
+                }
             </div>
          </div>
       </div>
