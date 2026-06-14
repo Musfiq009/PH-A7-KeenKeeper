@@ -1,5 +1,8 @@
+import { Link } from "react-router";
+
 const FriendCard = ({ friend }) => {
   return (
+    <Link to={`/${friend.id}`}>
     <div className="bg-white rounded-lg shadow-sm place-items-center p-6 space-y-3">
       <div className="">
         <img className="rounded-full" src={friend.picture} alt="women" />
@@ -10,8 +13,8 @@ const FriendCard = ({ friend }) => {
           {friend.days_since_contact}d ago
         </p>
         <div className="flex gap-2 flex-wrap justify-center items-center">
-          {friend.tags.map((tag) => (
-            <div className="p-2 bg-green-200 rounded-2xl text-sm font-medium">
+          {friend.tags.map((tag,index) => (
+            <div key={index} className="p-2 bg-green-200 rounded-2xl text-sm font-medium">
               {tag.toUpperCase()}
             </div>
           ))}
@@ -25,6 +28,8 @@ const FriendCard = ({ friend }) => {
         )}
       </div>
     </div>
+    </Link>
+    
   );
 };
 

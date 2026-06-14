@@ -4,6 +4,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import MainLayout from './layouts/MainLayout'
 import Dashboard from './pages/Dashboard/Dashboard'
+import FriendDetails from './pages/FriendDetails/FriendDetails'
 
 const router = createBrowserRouter([{
   path:"/",
@@ -12,6 +13,11 @@ const router = createBrowserRouter([{
     {
       index:true,
       Component:Dashboard,
+      loader: ()=>fetch("/Friends.json")
+    },
+    {
+      path:"/:id",
+      Component:FriendDetails,
       loader: ()=>fetch("/Friends.json")
     }
   ]
